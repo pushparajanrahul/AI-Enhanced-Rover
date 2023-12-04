@@ -15,14 +15,14 @@ AI-Enhanced-Rover is a machine learning project aimed at developing an intellige
 
 ## Introduction
 
-This project aims to showcase the pivotal role of an autonomous rover in overcoming limitations inherent in traditional industrial inspection techniques. By integrating YOLOv5 and the CAM32 microcontroller, this research project demonstrates how such innovative integration can significantly enhance precision, mitigate downtime, reduce labor costs, and elevate safety standards in wear and tear inspection processes. In industrial settings, meticulous wear and tear inspection of machinery and pipelines is crucial for preemptive measures against potential failures. However, current inspection methodologies face challenges such as lack of adaptability in large robotic systems and safety concerns associated with manual interventions. The AI-Enhanced-Rover addresses these issues by introducing an autonomous rover capable of navigating intricate industrial terrains and executing sophisticated image analysis.
+This project aims to showcase the pivotal role of an autonomous rover in overcoming limitations inherent in traditional industrial inspection techniques. By integrating YOLOv5s and the CAM32 microcontroller, this research project demonstrates how such innovative integration can significantly enhance precision, mitigate downtime, reduce labor costs, and elevate safety standards in wear and tear inspection processes. In industrial settings, meticulous wear and tear inspection of machinery and pipelines is crucial for preemptive measures against potential failures. However, current inspection methodologies face challenges such as lack of adaptability in large robotic systems and safety concerns associated with manual interventions. The AI-Enhanced-Rover addresses these issues by introducing an autonomous rover capable of navigating intricate industrial terrains and executing sophisticated image analysis.
 
 
 ## Features
 
 - **Versatility:** The AI-Enhanced-Rover is designed to navigate diverse industrial terrains, showcasing its adaptability across varied sectors, from manufacturing plants to energy facilities.
 
-- **Precision Inspection:** By incorporating YOLOv5, the rover achieves high precision in wear and tear detection, surpassing the limitations of traditional inspection methods.
+- **Precision Inspection:** By incorporating YOLOv5s, the rover achieves high precision in wear and tear detection, surpassing the limitations of traditional inspection methods.
 
 - **CAM32 Microcontroller Integration:** The integration of the CAM32 microcontroller elevates the rover's capabilities, enabling advanced machine learning analysis in a compact and versatile form factor.
 
