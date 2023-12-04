@@ -1,4 +1,4 @@
-# Import necessary modules from the Python Imaging Library (PIL)
+# Import necessary modules
 from PIL import Image, ImageDraw
 
 # Function to display bounding boxes on an image using label information
