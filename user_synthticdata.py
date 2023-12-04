@@ -37,7 +37,7 @@ def create_synthesized_image(image_width, image_height, num_dots_range, dot_size
     noise = np.random.normal(loc=0, scale=noise_scale, size=(image_height, image_width, 3)).astype(np.uint8)
     synthesized_image_array = np.clip(synthesized_image_array + noise, 0, 255)
 
-    # Create an image from the modified array
+    # Create an image from modified array
     synthesized_image_with_noise = Image.fromarray(synthesized_image_array)
     return synthesized_image_with_noise, labels
 
