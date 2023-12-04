@@ -96,6 +96,9 @@ python user_utils.py
 
 After running the above script, the directories should be available in the below fashion.
 
+![tree](https://github.com/pushparajanrahul/AI.Enhanced.Rover-YOLOv5s-CAM32/assets/124497777/b5cb26c3-95ef-4c25-96a1-895487dec8c8)
+
+
 
 Now start the training by running the below script. You can modify the hyperparameters for varied performances. This script calls the native YOLOv5 training script and loads the hyperparameters as defined.
 
@@ -119,6 +122,34 @@ Now move push the results into Edge Impulse and generate the export to load into
 ## Results
 
 Below are the results obtained on training the model.
+
+1. A snippet of the training results based on epoch runs.
+
+| Epoch | Train Box Loss | Train Object Loss | Train Class Loss | Precision | Recall | mAP@0.5 | mAP@0.5:0.95 | Validation Box Loss | Validation Object Loss | Validation Class Loss | Learning Rate 0 | Learning Rate 1 | Learning Rate 2 |
+|-------|-----------------|-------------------|------------------|-----------|--------|---------|--------------|----------------------|------------------------|-----------------------|------------------|------------------|------------------|
+| 0     | 0.11201         | 0.034021          | 0                | 0.12512   | 0.25   | 0.25825 | 0.061079     | 0.089727             | 0.021944               | 0                     | 0.070833         | 0.0032407         | 0.0032407         |
+| 1     | 0.090303        | 0.033315          | 0                | 0.22146   | 0.25   | 0.21254 | 0.046375     | 0.06471              | 0.019151               | 0                     | 0.040768         | 0.006509          | 0.006509          |
+| 2     | 0.083893        | 0.02547           | 0                | 0.046619  | 0.25   | 0.034776| 0.0090582    | 0.074776             | 0.017544               | 0                     | 0.010637         | 0.0097112         | 0.0097112         |
+| ...   | ...             | ...               | ...              | ...       | ...    | ...     | ...          | ...                  | ...                    | ...                   | ...              | ...              | ...              |
+| 97    | 0.019378        | 0.0098779         | 0                | 0.9875    | 1      | 0.995   | 0.92041      | 0.010113             | 0.0035527              | 0                     | 0.000496         | 0.000496          | 0.000496          |
+| 98    | 0.018121        | 0.010828          | 0                | 0.98734   | 1      | 0.995   | 0.93728      | 0.010215             | 0.0035791              | 0                     | 0.000397         | 0.000397          | 0.000397          |
+| 99    | 0.016924        | 0.0095128         | 0                | 0.98691   | 1      | 0.995   | 0.94557      | 0.010214             | 0.0035625              | 0                     | 0.000298         | 0.000298          | 0.000298          |
+
+
+2. Prediction results on training with YOLOv5s
+
+![val_batch0_pred](https://github.com/pushparajanrahul/AI.Enhanced.Rover-YOLOv5s-CAM32/assets/124497777/a086fc04-a186-459d-aa64-c0ad52d2594d)
+
+3. F1-score noted on trainng the Model
+
+![F1_curve](https://github.com/pushparajanrahul/AI.Enhanced.Rover-YOLOv5s-CAM32/assets/124497777/be29cf26-942a-4b50-aba7-cf9de5139c67)
+
+4. Loss Results
+
+![results](https://github.com/pushparajanrahul/AI.Enhanced.Rover-YOLOv5s-CAM32/assets/124497777/e4ae32df-cbaf-4013-ab56-ff14b487bb4e)
+
+
+
 
 ## Acknowledgements
 
