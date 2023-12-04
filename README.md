@@ -28,7 +28,7 @@ This project aims to showcase the pivotal role of an autonomous rover in overcom
 
 - **Cost Efficiency:** With reduced downtime and labor costs, the AI-Enhanced-Rover offers a cost-effective solution for industrial inspection.
 
-Aread of project include:
+Area's of project include:
 
 - Object detection and recognition
 - Remote control capabilities
@@ -43,9 +43,21 @@ Include instructions on how to get started with your project. This may include p
 To set up the project, create a virtual environment and install the required dependencies using the following command:
 
 ```bash
-pip install -r requirements.txt
 
+#Python 3.8.10 was set for the environment
+
+# Creating virtual environment 
+python -m venv venv
 
 # Activate virtual environment
 source venv/bin/activate
+
+# Installing torch and torchvision
+pip install torch==2.1.0 torchvision==0.16.0 --index-url https://download.pytorch.org/whl/cu121
+
+# Installing other dependencies
+pip install -r requirements.txt
+
+
+
 
