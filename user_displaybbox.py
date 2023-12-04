@@ -24,7 +24,7 @@ def display_bounding_boxes(image_path):
             width = float(width)
             height = float(height)
 
-            # Convert center position, width, height into
+            # Convert center position, width, height into the
             # top-left and bottom-right coordinates relative to the image size
             img_width, img_height = img.size
             x1 = (center_x - width / 2) * img_width
