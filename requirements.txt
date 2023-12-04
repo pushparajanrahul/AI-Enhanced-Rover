@@ -1,0 +1,32 @@
+# Usage: pip install -r requirements.txt
+
+# Base ------------------------------------------------------------------------
+gitpython>=3.1.30
+matplotlib>=3.3
+numpy>=1.22.2
+opencv-python>=4.1.1
+Pillow>=10.0.1
+psutil  # system resources
+PyYAML>=5.3.1
+requests>=2.23.0
+scipy>=1.4.1
+thop>=0.1.1  # FLOPs computation
+tqdm>=4.64.0
+ultralytics>=8.0.147
+
+# Plotting --------------------------------------------------------------------
+pandas>=1.1.4
+seaborn>=0.11.0
+
+# Deploy ----------------------------------------------------------------------
+setuptools>=65.5.1 # Snyk vulnerability fix
+
+# Export --------------------------------------
+coremltools>=5.2  # CoreML export
+onnx>=1.9.0  # ONNX export
+onnx-simplifier>=0.4.1  # ONNX simplifier
+onnxruntime-gpu
+tensorflow>=2.4.1  # TFLite export (or tensorflow-cpu, tensorflow-aarch64)
+tensorflowjs>=3.9.0  # TF.js export
+openvino-dev  # OpenVINO export
+
