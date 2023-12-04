@@ -122,7 +122,7 @@ Below are the results obtained on training the model.
 
 ## Acknowledgements
 
-We extend our gratitude to the open-source community and the contributors who make projects like this possible.
+I extend our gratitude to the open-source community and the contributors who make projects like this possible.
 
 Happy exploring with the AI-Enhanced-Rover!
 
