@@ -14,7 +14,7 @@ AI-Enhanced-Rover is a machine learning project aimed at developing an intellige
 
 ## Introduction
 
-This project aims to showcase the pivotal role of an autonomous rover in overcoming limitations inherent in traditional industrial inspection techniques. By integrating YOLOv5s and the CAM32 microcontroller, this research project demonstrates how such innovative integration can significantly enhance precision, mitigate downtime, reduce labor costs, and elevate safety standards in wear and tear inspection processes. In industrial settings, meticulous wear and tear inspection of machinery and pipelines is crucial for preemptive measures against potential failures. However, current inspection methodologies face challenges such as lack of adaptability in large robotic systems and safety concerns associated with manual interventions. The AI-Enhanced-Rover addresses these issues by introducing an autonomous rover capable of navigating intricate industrial terrains and executing sophisticated image analysis.
+This project aims to showcase the pivotal role of an autonomous rover in overcoming limitations inherent in traditional industrial inspection techniques. By integrating YOLOv5s and the Arduino Nano microcontroller, this research project demonstrates how such innovative integration can significantly enhance precision, mitigate downtime, reduce labor costs, and elevate safety standards in wear and tear inspection processes. In industrial settings, meticulous wear and tear inspection of machinery and pipelines is crucial for preemptive measures against potential failures. However, current inspection methodologies face challenges such as lack of adaptability in large robotic systems and safety concerns associated with manual interventions. The AI-Enhanced-Rover addresses these issues by introducing an autonomous rover capable of navigating intricate industrial terrains and executing sophisticated image analysis.
 
 ## Features
 
@@ -22,7 +22,7 @@ This project aims to showcase the pivotal role of an autonomous rover in overcom
 
 - **Precision Inspection:** By incorporating YOLOv5s, the rover achieves high precision in wear and tear detection, surpassing the limitations of traditional inspection methods.
 
-- **CAM32 Microcontroller Integration:** The integration of the CAM32 microcontroller elevates the rover's capabilities, enabling advanced machine learning analysis in a compact and versatile form factor.
+- **Arduino Nano Microcontroller Integration:** The integration of the Arduino Nano microcontroller elevates the rover's capabilities, enabling advanced machine learning analysis in a compact and versatile form factor.
 
 - **Cost Efficiency:** With reduced downtime and labor costs, the AI-Enhanced-Rover offers a cost-effective solution for industrial inspection.
 
@@ -37,7 +37,7 @@ This project aims to showcase the pivotal role of an autonomous rover in overcom
 To get started, clone this Gitrep on your local machine. The code is compiled using CUDA, and you can utilize it on a CUDA-enabled device.
 
 ```bash
-git clone https://github.com/pushparajanrahul/AI.Enhanced.Rover-YOLOv5s-CAM32.git
+git clone https://github.com/pushparajanrahul/AI.Enhanced.Rover-YOLOv5s-ArduinoNano.git
 
 ```
 
@@ -96,7 +96,7 @@ python user_utils.py
 
 After running the above script, the directories should be available in the below fashion.
 
-![tree](https://github.com/pushparajanrahul/AI.Enhanced.Rover-YOLOv5s-CAM32/assets/124497777/b5cb26c3-95ef-4c25-96a1-895487dec8c8)
+![tree](https://github.com/pushparajanrahul/AI.Enhanced.Rover-YOLOv5s-ArduinoNano/assets/124497777/b5cb26c3-95ef-4c25-96a1-895487dec8c8)
 
 
 
@@ -116,7 +116,7 @@ python yolov5/export.py --weights yolov5/runs/train/exp/weights/best.pt --int8 -
 
 ```
 
-Now move push the results into Edge Impulse and generate the export to load into the CAM32 module.
+Now move push the results into Edge Impulse and generate the export to load into the ArduinoNano module.
 
 
 ## Results
@@ -138,15 +138,15 @@ Below are the results obtained on training the model.
 
 2. Prediction results on training with YOLOv5s
 
-![val_batch0_pred](https://github.com/pushparajanrahul/AI.Enhanced.Rover-YOLOv5s-CAM32/assets/124497777/a086fc04-a186-459d-aa64-c0ad52d2594d)
+![val_batch0_pred](https://github.com/pushparajanrahul/AI.Enhanced.Rover-YOLOv5s-ArduinoNano/assets/124497777/a086fc04-a186-459d-aa64-c0ad52d2594d)
 
 3. F1-score noted on trainng the Model
 
-![F1_curve](https://github.com/pushparajanrahul/AI.Enhanced.Rover-YOLOv5s-CAM32/assets/124497777/be29cf26-942a-4b50-aba7-cf9de5139c67)
+![F1_curve](https://github.com/pushparajanrahul/AI.Enhanced.Rover-YOLOv5s-ArduinoNano/assets/124497777/be29cf26-942a-4b50-aba7-cf9de5139c67)
 
 4. Loss Results
 
-![results](https://github.com/pushparajanrahul/AI.Enhanced.Rover-YOLOv5s-CAM32/assets/124497777/e4ae32df-cbaf-4013-ab56-ff14b487bb4e)
+![results](https://github.com/pushparajanrahul/AI.Enhanced.Rover-YOLOv5s-ArduinoNano/assets/124497777/e4ae32df-cbaf-4013-ab56-ff14b487bb4e)
 
 
 
